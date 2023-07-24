@@ -1,3 +1,4 @@
+#include "sort.h"
 /**
  * print_array - Prints an array of integers
  * @array: The array to be printed
@@ -40,4 +41,20 @@ void print_list(const listint_t *list)
 		list = list->next;
 	}
 	printf("\n");
+}
+/**
+ * swap - swaps elements
+ * @a: element a
+ * @b: element b
+ *
+ * description: Prints a comma seperated list
+ */
+
+void swap(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
