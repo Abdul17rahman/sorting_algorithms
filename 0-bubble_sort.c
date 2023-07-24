@@ -1,7 +1,24 @@
 #include "sort.h"
 
 /**
-* buble_sort - Sorts elements of array
+ * swap - swaps elements
+ * @a: element a
+ * @b: element b
+ *
+ * description: Prints a comma seperated list
+ */
+
+void swap(int *a, int *b)
+{
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+/**
+* bubble_sort - Sorts elements of array
 * @array: Array to sort
 * @size: Size of an array
 *

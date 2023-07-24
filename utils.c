@@ -42,19 +42,3 @@ void print_list(const listint_t *list)
 	}
 	printf("\n");
 }
-/**
- * swap - swaps elements
- * @a: element a
- * @b: element b
- *
- * description: Prints a comma seperated list
- */
-
-void swap(int *a, int *b)
-{
-	int temp;
-
-	temp = *a;
-	*a = *b;
-	*b = temp;
-}
