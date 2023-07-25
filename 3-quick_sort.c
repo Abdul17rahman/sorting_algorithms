@@ -20,7 +20,7 @@ void swap(int *a, int *b)
 * partition - Partitions the array
 * @array: Array to partition
 * @lb: Lower bound/first element
-* @ub: Upper bound/size
+* @size: Upper bound/size
 *
 * description: Sorts the left and right of the pivot
 * Return: the last element
